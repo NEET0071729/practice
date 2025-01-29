@@ -1,2 +1,2 @@
 # practice
-practiceing leetcode problem
+practicing leetcode problem
