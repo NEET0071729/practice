@@ -25,8 +25,8 @@ if x < 0:
     sys.exit()
 
 x= str(x)
-for i in range((len(x)//2 + 1)):
-    if x[i] != x[(i)*(-1) - 1]:
+for i in range((len(x)//2 + 1)): #Interestingely if I remove + 1 it will still work but it will take 3 ms more while saving 0.1 mb memory
+    if x[i] != x[(i)*(-1) - 1]: 
         print('False')
         sys.exit()
 print('True')
